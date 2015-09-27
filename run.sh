@@ -7,8 +7,8 @@ ls
 history
 pwd
 ls
-mkdir github
-cd github
+# mkdir github
+# cd github
 which git
 git clone https://github.com/drewplant-MIDS/W205.git
 ls
