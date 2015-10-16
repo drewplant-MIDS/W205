@@ -1,0 +1,87 @@
+Hospital General Information
+============================
+*Text(8) Provider ID
+Text(52) Hospital Name
+Text(52) Address
+Text(22) City
+Text(4) State
+Text(7) ZIP Code
+Text(22) County Name
+Text(12) Phone Number
+Text(38) Hospital Type
+Text(45) Hospital Ownership
+
+Timely and Effective Care
+(F)Text(8) Provider ID
+Text(52) Hospital Name
+Text(46) Address
+Text(22) City
+Text(4) State
+Text(7) ZIP Code
+Text(22) County Name
+Text(12) Phone Number
+Text(37) Condition
+(*)Text(18) Measure ID
+Text(137) Measure Name
+Text(44) Score
+
+Readmissions and Deaths
+(F)Text(8) Provider ID
+Text(52) Hospital Name
+Text(45) Address
+Text(21) City
+Text(4) State
+Text(7) ZIP Code
+Text(22) County Name
+Text(12) Phone Number
+Text(89) Measure Name
+Text(20) Measure ID
+Text(37) Compared to National
+Text(15) Denominator
+Text(15) Score
+Text(15) Lower Estimate
+Text(15) Higher Estimate
+Text(58) Footnote
+Text(12) Measure Start Date
+Text(12) Measure End Date
+
+Measure Dates
+Text(159) Measure Name
+Text(20) Measure ID
+Text(8) Measure Start Quarter
+Text(21) Measure Start Date
+Text(8) Measure End Quarter
+Text(21) Measure End Date
+
+hvbp_hcahps_05_28_2015.csv
+1 Text(8) Provider Number
+2 Text(52) Hospital Name
+3 Text(46) Address
+4 Text(22) City
+5 Text(4) State
+6 Text(12) ZIP Code
+7 Text(22) County Name
+8 Text(15) Communication with Nurses Achievement Points
+9 Text(15) Communication with Nurses Improvement Points
+10 Text(15) Communication with Nurses Dimension Score
+11 Text(15) Communication with Doctors Achievement Points
+12 Text(15) Communication with Doctors Improvement Points
+13 Text(15) Communication with Doctors Dimension Score
+14 Text(15) Responsiveness of Hospital Staff Achievement Points
+15 Text(15) Responsiveness of Hospital Staff Improvement Points
+16 Text(15) Responsiveness of Hospital Staff Dimension Score
+17 Text(15) Pain Management Achievement Points
+18 Text(15) Pain Management Improvement Points
+19 Text(15) Pain Management Dimension Score
+21 Text(15) Communication about Medicines Achievement Points
+22 Text(15) Communication about Medicines Improvement Points
+23 Text(15) Communication about Medicines Dimension Score
+24 Text(15) Cleanliness and Quietness of Hospital Environment Achievement Points
+25 Text(15) Cleanliness and Quietness of Hospital Environment Improvement Points
+26 Text(15) Cleanliness and Quietness of Hospital Environment Dimension Score
+27 Text(15) Discharge Information Achievement Points
+28 Text(15) Discharge Information Improvement Points
+29 Text(15) Discharge Information Dimension Score
+30 Text(15) Overall Rating of Hospital Achievement Points
+31 Text(15) Overall Rating of Hospital Improvement Points
+32 Text(15) Overall Rating of Hospital Dimension Score
