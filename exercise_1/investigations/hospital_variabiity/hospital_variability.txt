@@ -1,0 +1,36 @@
+This list of top-10 procedures are those showing the highest variance across all surveyed hospitals.
+
+
+MeasureID  	Measure Name  					Variance
+=========  	============					========   	
+OP_23		Head CT Scan Results for Acute 			491.03
+		Ischemic Stroke or Hemorrhagic Stroke
+		Patients who Received Head CT or MRI Scan 
+		Interpretation Within 45 Minutes of ED Arrival	
+
+ED_2b		Admit Decision Time to ED Departure Time for 	471.62
+		Admitted Patients
+
+STK_4		Thrombolytic Therapy				438.57
+
+ED_1b		Median Time from ED Arrival to ED Departure 	381.17
+		for Admitted ED Patients
+
+
+OP_2		Fibrinolytic Therapy Received Within 30 Minutes 340.67
+		of ED Arrival
+
+HF_1		Discharge Instructions				318.82
+
+OP_3b		Median Time to Transfer to Another Facility 	280.46
+		for Acute Coronary Intervention- Reporting Rate	
+
+CAC_3		Home Management Plan of Care (HMPC) Document 	271.04
+		Given to Patient/Caregiver	
+
+OP_21		Median Time to Pain Management for Long 	256.22
+		Bone Fracture
+
+OP_20		Median Time from ED Arrival to Provider 	249.43
+		Contact for ED patients
+

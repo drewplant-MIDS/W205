@@ -1,0 +1,18 @@
+
+For Hospitals:
+=============
+	This query calculates the Pearson correlation factor between the combined measure score and the combined survey score from 
+	the previous table, CombHospBest (which was created in the file best_hospitals/best_hospitals.sql.)
+
+	The Pearson's R for these two variables turns out to be 0.1128 which is rather small but does indicate at least a minor 
+	linear correlation between measure scores and survey scores.
+
+For States:
+==========
+	Pearson's R was also calculated using related variables StateAvgScoreMeasures and StateAvgSurvey.
+	Interestingly, if anything Pearson's R is larger in magnitude than for the hospital resolution and negative.
+	R_state = -0.2696.  This is almost at a significant level.  It's curious that lower survey ratings would correlate with 
+	higher measure outcomes.  
+
+
+	

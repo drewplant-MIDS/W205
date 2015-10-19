@@ -1,0 +1,24 @@
+This list of top-10 hospitals is based on evaluating the following:
+	* Average measure score (100% max) for each measure within each hospital
+		(where provided)
+	* Average of rate of readmission within 30dayd and 
+		rate of death within 30 days
+		of a hospital's discharge (low is better)
+	* Rate of readmission/Death remapped so 100% is best, 0% is worst
+	* Also provided in the table for information is the average over survey score.
+
+
+
+                    					Eff Care 	Readm/Deaths	Readm/Deaths	Survey Overall Avg
+HospID  HospitalName  / State				(0-100%)        orig 		(0-100%)        (0-10)
+======  =========================================       =====   	====   		=====           ====
+050769	HOAG ORTHOPEDIC INSTITUTE - CA			99.09 		7.0		85.14		9.66
+190261	OUACHITA COMMUNITY HOSPITAL - LA		88.22 		4.6 		82.35		6.66
+360266	MOUNT CARMEL NEW ALBANY SURGICAL HOSPITAL - OH	99.0		7.85 		82.19		9.66
+190267	FAIRWAY MEDICAL CENTER - LA			87.2		4.4		82.01	 	6.66
+170183	KANSAS SURGERY & RECOVERY CENTER - KS		99.81 		8.25 		81.66		8.66
+280127	LINCOLN SURGICAL HOSPITAL - NE			98.91 		8.15 		81.10		9.66
+520205	MIDWEST ORTHOPEDIC SPECIALTY HOSPITAL - WI	99.63  		8.45 		80.81		9.66
+460049	THE ORTHOPEDIC SPECIALTY HOSPITAL - UT		98.90  		8.64 		79.40		4.66
+450875	QUAIL CREEK SURGICAL HOSPITAL - TX		98.36 		8.55 		79.20		9.66
+340049	NORTH CAROLINA SPECIALTY HOSPITAL NC		99.72 		9.0 		79.04		9.66

@@ -1,0 +1,24 @@
+This list of top-10 states for health care is based on evaluating the following:
+	* Average measure score (100% max) for each measure within each state
+	* Average of rate of readmission within 30dayd and 
+		rate of death within 30 days
+		of a hospital's discharge (low is better)
+	* Also provided in the table for information is the average over survey score.
+	* Note that Survey results do not appear to correlate well with
+	* Effective care and that Readmission and Death rates are fairly consistent amongst all states
+
+
+
+                Eff Care 	Readm/Deaths	Survey Overall Avg
+State  		(0-100%)        orig 		(0-10)
+======  	========   	====   		====
+VT		91.04		14.07		2.22
+NH		87.52		13.75		2.51
+DE		87.22		13.65		1.05
+ME		87.13		14.08		3.18
+DC		86.57		14.56		0.42
+NE		85.57		14.20		3.82
+CT		85.14		13.85		1.35
+NJ		84.60		14.14		1.26
+RI		84.48		14.28		2.24
+CA		84.12		13.98		2.12
