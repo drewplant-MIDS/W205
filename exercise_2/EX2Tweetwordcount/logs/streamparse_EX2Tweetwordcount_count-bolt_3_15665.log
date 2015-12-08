@@ -1,0 +1,9 @@
+2015-12-08 10:14:52,719 - streamparse.storm.component - ERROR - Exception in WordCounter.run()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/streamparse/storm/component.py", line 489, in run
+    self._run()
+  File "/usr/lib/python2.7/site-packages/streamparse/storm/bolt.py", line 219, in _run
+    self.process(tup)
+  File "bolts/wordcount.py", line 33, in process
+    cur.execute("SELECT word, count from Tweetwordcount WHERE word=%s;", (newTweetWord,))
+NameError: global name 'cur' is not defined
