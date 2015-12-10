@@ -13,16 +13,25 @@ class WordCounter(Bolt):
         self.counts = Counter()
 
         # setup a connector object and connect to our postgresql database
-        #Drew commenting out
         self.conn = psycopg2.connect(database="tcount", user="postgres", password="", host="localhost", port="5432")
-        # Create a table
+
         ## Create a cursor
         self.cur = self.conn.cursor()
-        #cur.execute('''CREATE TABLE tweetwordcount \
-        #    (word TEXT PRIMARY KEY     NOT NULL, \
-        #    COUNT INT      NOT NULL);''')
-        #conn.commit()
-        
+        ##  Note that dropping and creating tables is problemmatic
+        ##  ...if tables don't exist or already exist (respectively.)
+        ##  Therefore, I'm leaving the responsibility of creating the table within psql
+        ##  ...to the grader ... :-)
+        #
+        # Drop table if it exists
+        # self.cur.execute('DROP TABLE IF EXISTS tweetwordcount;') 
+        # self.conn.commit()
+
+        # Create table 
+        #self.cur.execute('''CREATE TABLE tweetwordcount \ 
+        #    (word TEXT PRIMARY KEY NOT NULL, \ 
+        #    COUNT INT NOT NULL);''')
+        #self.conn.commit()
+
     def process(self, tup):
         # Increment the local count
         newTweetWord = tup.values[0]
@@ -40,7 +49,7 @@ class WordCounter(Bolt):
         if len(ReadLine) == 0:
             # print "No records with word %s found...\n" %(newTweetWord)
             # Insert the word, count tuple
-            self.cur.execute("INSERT INTO TWeetwordcount (word,count) \
+            self.cur.execute("INSERT INTO Tweetwordcount (word,count) \
             VALUES (%s, %s);", (newTweetWord, newTweetCount))
             # Commit update
             self.conn.commit()
